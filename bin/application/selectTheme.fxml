@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="874.0" style="-fx-background-color: #616161;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SelectThemeController">
+   <children>
+      <ImageView fitHeight="655.0" fitWidth="968.0" layoutX="21.0" layoutY="121.0" opacity="0.42" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/2P6t_Yt6dF0TNN76dlp-_Q_3417757448_4a6bdf36ce_o.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="frame" fitHeight="855.0" fitWidth="874.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/themepage.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="208.0" fitWidth="337.0" layoutX="458.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/XBOX.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="217.0" fitWidth="372.0" layoutX="56.0" layoutY="204.0">
+         <image>
+            <Image url="@../../images/0040.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="289.0" fitWidth="308.0" layoutX="81.0" layoutY="452.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Toothy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="314.0" fitWidth="241.0" layoutX="496.0" layoutY="432.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Plus!%20HueShifter.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="theme1Button" layoutX="56.0" layoutY="197.0" mnemonicParsing="false" onAction="#showTheme" opacity="0.0" prefHeight="235.0" prefWidth="384.0" text="selectTheme1">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="theme2Button" layoutX="446.0" layoutY="197.0" mnemonicParsing="false" onAction="#showTheme" opacity="0.0" prefHeight="235.0" prefWidth="372.0" text="selectTheme2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="theme3Button" layoutX="62.0" layoutY="452.0" mnemonicParsing="false" onAction="#showTheme" opacity="0.0" prefHeight="296.0" prefWidth="372.0" text="selectTheme3">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="theme4Button" layoutX="446.0" layoutY="426.0" mnemonicParsing="false" onAction="#showTheme" opacity="0.0" prefHeight="326.0" prefWidth="372.0" text="selectTheme4">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="closeButton" layoutX="832.0" layoutY="6.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" opacity="0.0" prefHeight="33.0" prefWidth="31.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="minButton" layoutX="795.0" layoutY="6.0" mnemonicParsing="false" onAction="#handleMinButtonAction" opacity="0.0" prefHeight="33.0" prefWidth="31.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
